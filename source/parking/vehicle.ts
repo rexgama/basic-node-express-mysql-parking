@@ -4,7 +4,7 @@ class Vehicle {
     private _plate_number: string;
     private _size: number;
     private _slot: ParkingSlot = new ParkingSlot(0, new Map<string, number>());
-    constructor(size: number,plate_number: string) {
+    constructor(size: number, plate_number: string) {
         this._plate_number = plate_number;
         this._size = size;
     }
